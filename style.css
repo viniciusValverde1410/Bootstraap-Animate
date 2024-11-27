@@ -8,20 +8,17 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
     background-image: linear-gradient(to left, black, rgb(32, 32, 32), gray, rgb(32, 32, 32), black  );
-
-
 }
 
 .containeeeeeeer {
     width: 85%;
-    margin: 2rem;    
+    margin: 2rem;
+    margin-left: 6rem;    
     display: flex;
+    align-items: center;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
 card-brabo {
@@ -35,6 +32,21 @@ card-brabo {
     margin-right: 0.5rem;
 }
 
+a:hover  {
+    background-color: black;
+}
+
 p {
     font-size: 0.9rem;
+}
+
+.vai {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.h1 {
+    margin: 2rem;
 }
